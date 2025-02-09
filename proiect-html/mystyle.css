@@ -1,0 +1,43 @@
+body {
+    background-color: #285680; 
+
+
+    background-image: url("snowflake3.jpg");
+}
+h1 {
+background-color: #285680;
+}
+
+#tabel3 table{
+border-collapse: collapse;
+width: 100%;
+}
+
+#tabel3 th, td {
+padding: 8px;
+text-align: left;
+border-bottom: 1px solid #ddd;
+}
+
+
+#tabel3 tr:nth-child(even){background-color: #243787}
+
+#tabel3 th {
+    background-color: #374dab
+
+}
+
+#tabel3 tr:hover {background-color: #35c2cc;}
+
+#wiki:link, #wiki:visited {
+background-color: #5c91db;
+color: white;
+padding: 14px 25px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+}
+
+#wiki:hover, #wiki:active {
+background-color: #864fc9;
+}
